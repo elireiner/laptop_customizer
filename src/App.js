@@ -45,6 +45,7 @@ class App extends Component {
   };
 
   render() {
+
     return (
       <div className="App">
         <header>
@@ -62,6 +63,7 @@ class App extends Component {
               selected={this.state.selected}
               USCurrencyFormat={USCurrencyFormat}
             />
+
         </main>
       </div>
     );
