@@ -17,6 +17,7 @@ export default class Form extends Component {
                         itemHash={itemHash}
                         item={item}
                         updateFeature={this.props.updateFeature}
+                        selected={this.props.selected}
                     />
                 );
             });
